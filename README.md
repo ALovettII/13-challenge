@@ -2,7 +2,6 @@
  Binary classification model using a deep neural network.
 
 ## Technologies
-
 * import pandas as pd
 * from pathlib import Path
 * import tensorflow as tf
@@ -13,7 +12,6 @@
 
 
 ## Installation Guide
-
 Using the Conda package manager: [My GitHub Project](https://github.com/ALovettII/13-challenge.git)
 
 You'll need to install the following tools for this project:
@@ -43,7 +41,6 @@ python -c "import tensorflow as tf;print(tf.keras.__version__)"
 
 
 ## Usage
-
 Use this project to predict whether Alphabet Soup (fictional company) funding applicants will be successful, you will create a binary classification model using a deep neural network.
 
 The project follows this outline:
@@ -62,20 +59,30 @@ If you'd like to adapt the code for another project:
     * Add or reduce the number of epochs in the training regimen.
 
 Successful deployment should yield the following results:
-![
+![]()
+![]()
+![]()
 
-
-To import any of the models for manipulation without running the code (replacing '<model>' with any one of the three models): 
+To import any of the models for manipulation without compile (replacing 'model' with any one of the three models):
 ```python
 # Importing necessary libraries
 import tensorflow as tf
 
 # Defining the filepath
-file_path = Path("Resources/<model>.h5")
+file_path = Path("Resources/model.h5")
 
 # Loading the model
 nn_imported = tf.keras.models.load_model(file_path)
 ```
+
+
+## Summary of Analysis
+| Model | Hidden Layers | Epochs | Loss | Accuracy |
+| ----- | ------------- | ------ | ---- | -------- |
+| Original Model | 2 HL | 50 epochs | 0.5548 | 0.7306 |
+| Alternative 1 | 2 HL | 70 epochs | 0.5539 | 0.7275 |
+| Alternative 2 | 3 HL | 50 epochs | 0.5539 | 0.7310 | 
+
 
 ## Contributors
 Created by Arthur Lovett
