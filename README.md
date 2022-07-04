@@ -81,7 +81,7 @@ nn_imported = tf.keras.models.load_model(file_path)
 | ----- | ------------- | ------ | ---- | -------- |
 | Original Model | 2 HL | 50 epochs | 0.5548 | 0.7306 |
 | Alternative 1 | 2 HL | 70 epochs | 0.5539 | 0.7275 |
-| Alternative 2 | 3 HL | 50 epochs | 0.5539 | 0.7310 | 
+| Alternative 2 | 3 HL | 70 epochs | 0.5539 | 0.7310 | 
 
 
 ## Contributors
