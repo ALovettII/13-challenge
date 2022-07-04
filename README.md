@@ -58,10 +58,10 @@ If you'd like to adapt the code for another project:
     * Use different activation functions for the hidden layers.
     * Add or reduce the number of epochs in the training regimen.
 
-Successful deployment should yield the following results:
-![]()
-![]()
-![]()
+Successful deployment should yield similar results:
+![Accuracy Plots - Alternative 1](https://github.com/ALovettII/13-challenge/blob/main/Resources/Images/Accuracy-Plots.png)
+![Evaluation Results - Neural Nets](https://github.com/ALovettII/13-challenge/blob/main/Resources/Images/Model-Results.png)
+![Neural Net Structure - Alternative 1](https://github.com/ALovettII/13-challenge/blob/main/Resources/Images/NN-Structure.png)
 
 To import any of the models for manipulation without compile (replacing 'model' with any one of the three models):
 ```python
